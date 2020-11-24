@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Web Design Warriors">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<title> Heavenly Sounds-Buy Musical Instruments Online	</title>
+ 	<style>
+
+/*--------------*/
+/* BASIC SETUP */
+/*--------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+   color:black;
+   font-family; 'Arial', 'sans-serif';
+   font-size: 20px;
+   font-weight: 300;
+   text-rendering: optimizeLegibility; 
+   height:100%;
+}
+ h2{
+ font-size: 180%;
+ word-spacing: 2px;
+ text-align: center;
+ margin-bottom:30px;
+ letter-spacing:1px; 
+ margin:30px auto; 
+} 
+h2:after{
+ display: block;
+ height: 2px;
+ background-color: #e67e22;
+ content: " ";
+ width: 100px;
+ margin: 0 auto;
+ margin-top: 30px;
+}
+h3{
+  font-size: 110%;
+  margin-bottom: 15px;  
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+/*--------------*/
+/* HEADER */
+/*--------------*/
+.logo{
+   height: 120px;
+   width: auto;
+   float:inherit;
+   margin-top:15px;
+}
+
+.navbar{
+   width: 100%;
+   background-color:#e1e35f;
+   border-radius: 40px;
+  
+}
+.navbar ul {
+   overflow: auto;
+}
+
+.navbar li{
+   float:left;
+   list-style: none;
+   margin: 13px 20px;
+}
+
+.navbar li a:link,
+.navbar li a:visited{
+   padding:8px 0;
+   color: black;
+   text-decoration: none;
+   font-size: 90%;
+   border-bottom: 2px solid transparent; 
+   }
+
+.navbar li a:hover,
+.navbar li a:active{
+	border-bottom: 2px solid #5d5e09;
+	transition: border-bottom: 0.5s;
+
+}
+
+.search{
+   float:right;
+   padding: 12px 75px;
+}
+.navbar input{
+   border: 2px solid yellow;
+   border-radius: 14px;
+   padding: 6px 17px;
+}
+
+/*--------------*/
+/* BANNER */
+/*--------------*/
+.banner{
+      background-image: url(resources/img/usp.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height:70vh;
+      margin-top: 10px;
+      background-attachment: fixed;
+}
+.banner-content{
+   color: #fff;
+   width: 55%;
+   padding-top: 170px;
+   margin: 0 auto;
+}
+.banner-content h1{
+   margin-bottom: 20px;
+   font-size:60px;
+   font-weight:600;
+   letter-spacing:3px;
+   font-family: sans-serif;
+}
+.banner-content p{
+   font-size:20px;
+   letter-spacing:3px;
+   font-style: italic;
+   margin: 0 120px;
+}
+/*-------------------*/
+/* FEATURED PRODUCTS */
+/*-------------------*/
+.products{
+   height: 70vh;
+}
+.main-products{
+   display:flex;
+   flex-wrap:wrap;
+}
+.item{
+   margin: 0 auto;
+   text-align:center;
+   position: relative;
+   top: 20px;
+}
+.item a{
+   text-decoration:none;
+   color:black;
+}
+.item img{
+   height:400px;
+
+}
+.item h3{
+   font-size: 24px;
+   word-spacing:1px;
+   letter-spacing:1px;
+
+}
+.item img:hover{
+   opacity:0.75;
+   transition: 0.5s;
+}
+.item a:hover{
+
+    transition: 0.2s;
+}
+
+
+/*--------------*/
+/* FOOTER */
+/*--------------*/
+.footer{
+   background:#303036;
+   color: #d3d3d3;
+   height:400px;
+   position:relative;
+}
+.footer .footer-content{
+
+   height:350px;
+   display:flex;
+}
+.footer .footer-content .footer-section{
+   flex:1;
+   padding:25px;
+
+}
+.footer .footer-bottom{
+  width:100%;
+  background:#343a40;
+  color: #686868;
+  height:50px;
+  text-align:center;
+  position:absolute; 
+  bottom:0px;
+  left:0px;
+  padding-top:0px;
+}
+
+
+
+
+
+
+
+
+
+	</style>
+   </head>
+   <body>
+	<header>
+		   <a href="index.html"><img src="resources/img/logo.png" alt="Heavenly Sounds Logo" class="logo"></a>
+		<nav class="navbar">
+		   <ul>
+		   <li><a href="index.html ">Home</a></li>
+		   <li><a href="guitar.html">Guitar</a></li>
+		   <li><a href="piano.html">Piano</a></li>
+		   <li><a href="drum.html">Drums</a></li>
+		   <li><a href="usp.html">Used Products</a></li>
+		   <li><a href="blog.html">Blog</a></li>
+		   <li><a href="contact.html">Contact Us</a></li>
+		   <div class="search">
+		       <input type="text" name="search" id="search" placeholder="Search This Website">
+		   </div>
+		   </ul>
+		</nav>
+		   <div class="banner">
+		    <div class="banner-content">
+		<h1> Used Products</h1>
+		
+ 		<p> Want to buy second hand, we are here for you! </p>
+	      </div>
+	    </div>
+	</header>
+		
+
+		<section class="featured-products">
+		<h2> Used </h2>
+		<div class="products">
+   		<div class="main-products">
+		<div class="item">
+		<a href="#">
+		   <img src= "resources/img/usp1.jpg" alt=""ender Affinity Strat>
+		   <h3>Fender Affinity Strat - Used</h3>
+		</a>
+		</div>
+		<div class="item">
+		<a href="#">
+		   <img src= "resources/img/usp2.jpg" alt="Ibanez RG570 Electric Guitar">
+		   <h3>Ibanez RG570 Electric Guitar - Used</h3>
+		</a>
+		</div>
+		<div class="item">
+		<a href="#">
+		   <img src= "resources/img/usp3.jpeg" alt="Cort G200dx Electric Guitar">
+		   <h3>Cort G200dx Electric Guitar</h3>
+		</a>	
+		</div>
+              </div>
+	     </div>
+
+			<div class="products">
+   		<div class="main-products">
+		<div class="item">
+		<a href="#">
+		   <img src= "resources/img/usp4.jpg" alt="Yamaha C7X Grand Piano">
+		   <h3>Yamaha C7X Grand Piano</h3>
+		</a>
+		</div>
+		              </div>
+	     </div>
+	</section>
+
+		<div class="footer">
+		 <div class="footer-content">
+			<div class="footer-section about">
+			<img src="resources/img/logo.png" alt="logo">
+			<p>Heavenly Sounds is a fictional company created for the sole 					purpose CIS 145 Term Project</p>
+			
+			 </div>
+			
+
+		
+					   </div>
+   		 <div class="footer-bottom">
+			<p>Disclaimer<br>
+				This is a project of CIS 145, Web Publishing course in 					UFV, instructed and requested by Professor Lili Saghafi
+			</p>
+		</div>                  
+	      </div>
+
+		
+		
+   </body>
+</html>
+
+
